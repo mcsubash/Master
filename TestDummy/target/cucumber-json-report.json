@@ -1,0 +1,161 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-30T15:50:22.736Z",
+        "line": 7,
+        "name": "User fill the username and paasword with valid credentials",
+        "description": "",
+        "id": "to-verify-the-ranking-fields-in-overall-postion-indicator-with-source-data;user-fill-the-username-and-paasword-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3518634600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should be in student dashboard page",
+            "match": {
+              "location": "OPISteps.the_user_should_be_in_student_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 936276800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enters the valid credentials to login student module",
+            "match": {
+              "location": "OPISteps.enters_the_valid_credentials_to_login_student_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 663928100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user clicks the Login button",
+            "match": {
+              "location": "OPISteps.the_user_clicks_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94570800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enters the OTP",
+            "match": {
+              "location": "OPISteps.enters_the_OTP()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45525800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicks the Submit button",
+            "match": {
+              "location": "OPISteps.clicks_the_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4017477900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "student profile page should be opened",
+            "match": {
+              "location": "OPISteps.student_profile_page_should_be_opened()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-30T15:50:32.048Z",
+        "line": 19,
+        "name": "Getting the College Ranking field from the Overall Position Indicator and compare with the source Test Data",
+        "description": "",
+        "id": "to-verify-the-ranking-fields-in-overall-postion-indicator-with-source-data;getting-the-college-ranking-field-from-the-overall-position-indicator-and-compare-with-the-source-test-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 72287100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user clicks College button under Overall Position Indicator",
+            "match": {
+              "location": "OPISteps.the_user_clicks_College_button_under_Overall_Position_Indicator()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64066400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "gets the values from the Rank-field both for the User and the Topper",
+            "match": {
+              "location": "OPISteps.gets_the_values_from_the_Rank_field_both_for_the_User_and_the_Topper()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Verify rank in source data (excel) with application:  expected:\u003c1[]\u003e but was:\u003c1[/2]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.stepdefinition.OPISteps.verify_it_matches_the_Source_Test_Data(OPISteps.java:194)\r\n\tat ✽.verify it matches the Source Test Data(file:src/test/resources/Features/OPI.feature:22)\r\n",
+              "duration": 258223600,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "verify it matches the Source Test Data",
+            "match": {
+              "location": "OPISteps.verify_it_matches_the_Source_Test_Data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 356600,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "any data mismatch will be updated in the Mismatch Tracker",
+            "match": {
+              "location": "OPISteps.any_data_mismatch_will_be_updated_in_the_Mismatch_Tracker()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@OPIcollege"
+          }
+        ]
+      }
+    ],
+    "name": "To verify the Ranking fields in overall postion indicator with source data",
+    "description": "",
+    "id": "to-verify-the-ranking-fields-in-overall-postion-indicator-with-source-data",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/OPI.feature",
+    "tags": []
+  }
+]

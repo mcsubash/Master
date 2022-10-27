@@ -1,0 +1,319 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-19T13:55:16.922Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2857414900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Getting the College Ranking field from the Overall Position Indicator and compare with the source Test Data",
+        "description": "",
+        "id": "to-verify-the-ranking-fields-in-overall-postion-indicator-with-source-data;getting-the-college-ranking-field-from-the-overall-position-indicator-and-compare-with-the-source-test-data",
+        "after": [
+          {
+            "result": {
+              "duration": 132974100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.failedScenarioScreenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 16254942600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2204800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the valid credentials and clicks \"College\" button under Overall Position Indicator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"College\"",
+                  "offset": 45
+                }
+              ],
+              "location": "OverallPositionIndicatorStepDefs.user_enters_the_valid_credentials_and_clicks_button_under_Overall_Position_Indicator(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.pom.pages.StduentDashBoard.getcStudentRank()\" because \"this.db\" is null\r\n\tat org.stepdefinition.OPISteps.gets_the_values_from_the_Rank_field_both_for_the_User_and_the_Topper(OPISteps.java:63)\r\n\tat ✽.gets the values from the Rank-field both for the User and the Topper(file:OPI.feature:9)\r\n",
+              "duration": 2106500,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "gets the values from the Rank-field both for the User and the Topper",
+            "match": {
+              "location": "OPISteps.gets_the_values_from_the_Rank_field_both_for_the_User_and_the_Topper()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 440400,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "verify it matches the Source Test Data",
+            "match": {
+              "location": "OPISteps.verify_it_matches_the_Source_Test_Data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 318400,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "any data mismatch will be updated in the Mismatch Tracker",
+            "match": {
+              "location": "OPISteps.any_data_mismatch_will_be_updated_in_the_Mismatch_Tracker()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@OPIcollege"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-19T13:55:36.226Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1153375100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Getting the District Ranking field from the Overall Position Indicator and compare with the source Test Data",
+        "description": "",
+        "id": "to-verify-the-ranking-fields-in-overall-postion-indicator-with-source-data;getting-the-district-ranking-field-from-the-overall-position-indicator-and-compare-with-the-source-test-data",
+        "after": [
+          {
+            "result": {
+              "duration": 113297900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.failedScenarioScreenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 16201522700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 614200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters the valid credentials and clicks \"District\" button under Overall Position Indicator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"District\"",
+                  "offset": 45
+                }
+              ],
+              "location": "OverallPositionIndicatorStepDefs.user_enters_the_valid_credentials_and_clicks_button_under_Overall_Position_Indicator(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.pom.pages.StduentDashBoard.getcStudentRank()\" because \"this.db\" is null\r\n\tat org.stepdefinition.OPISteps.gets_the_values_from_the_Rank_field_both_for_the_User_and_the_Topper(OPISteps.java:63)\r\n\tat ✽.gets the values from the Rank-field both for the User and the Topper(file:OPI.feature:18)\r\n",
+              "duration": 547600,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "gets the values from the Rank-field both for the User and the Topper",
+            "match": {
+              "location": "OPISteps.gets_the_values_from_the_Rank_field_both_for_the_User_and_the_Topper()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 235200,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "verify it matches the Source Test Data",
+            "match": {
+              "location": "OPISteps.verify_it_matches_the_Source_Test_Data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 203200,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "any data mismatch will be updated in the Mismatch Tracker",
+            "match": {
+              "location": "OPISteps.any_data_mismatch_will_be_updated_in_the_Mismatch_Tracker()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@OPIdistrict"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-19T13:55:53.700Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1630945400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Getting the District Ranking field from the Overall Position Indicator and compare with the source Test Data",
+        "description": "",
+        "id": "to-verify-the-ranking-fields-in-overall-postion-indicator-with-source-data;getting-the-district-ranking-field-from-the-overall-position-indicator-and-compare-with-the-source-test-data",
+        "after": [
+          {
+            "result": {
+              "duration": 192223400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.failedScenarioScreenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 16218625800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 488800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enters the valid credentials and clicks \"State\" button under Overall Position Indicator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"State\"",
+                  "offset": 45
+                }
+              ],
+              "location": "OverallPositionIndicatorStepDefs.user_enters_the_valid_credentials_and_clicks_button_under_Overall_Position_Indicator(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.pom.pages.StduentDashBoard.getcStudentRank()\" because \"this.db\" is null\r\n\tat org.stepdefinition.OPISteps.gets_the_values_from_the_Rank_field_both_for_the_User_and_the_Topper(OPISteps.java:63)\r\n\tat ✽.gets the values from the Rank-field both for the User and the Topper(file:OPI.feature:26)\r\n",
+              "duration": 570000,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "gets the values from the Rank-field both for the User and the Topper",
+            "match": {
+              "location": "OPISteps.gets_the_values_from_the_Rank_field_both_for_the_User_and_the_Topper()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 506800,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "verify it matches the Source Test Data",
+            "match": {
+              "location": "OPISteps.verify_it_matches_the_Source_Test_Data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 359900,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "any data mismatch will be updated in the Mismatch Tracker",
+            "match": {
+              "location": "OPISteps.any_data_mismatch_will_be_updated_in_the_Mismatch_Tracker()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@OPIstate"
+          }
+        ]
+      }
+    ],
+    "name": "To verify the Ranking fields in overall postion indicator with source data",
+    "description": "",
+    "id": "to-verify-the-ranking-fields-in-overall-postion-indicator-with-source-data",
+    "keyword": "Feature",
+    "uri": "file:OPI.feature",
+    "tags": []
+  }
+]
